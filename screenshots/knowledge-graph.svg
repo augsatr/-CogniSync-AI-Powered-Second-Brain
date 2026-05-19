@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" fill="none">
+  <rect width="1200" height="675" fill="#080b13"/>
+  <rect x="260" y="20" width="920" height="60" rx="12" fill="#111523"/>
+  <rect x="280" y="95" width="920" height="560" rx="16" fill="#111523"/>
+  <circle cx="500" cy="250" r="30" fill="#6366f1" opacity="0.3"/>
+  <circle cx="500" cy="250" r="12" fill="#6366f1"/>
+  <text x="500" y="300" text-anchor="middle" fill="#e0e7ff" font-size="12" font-family="sans-serif">AI/ML</text>
+  <circle cx="350" cy="370" r="25" fill="#8b5cf6" opacity="0.3"/>
+  <circle cx="350" cy="370" r="10" fill="#8b5cf6"/>
+  <text x="350" y="415" text-anchor="middle" fill="#e0e7ff" font-size="11" font-family="sans-serif">NLP</text>
+  <circle cx="680" cy="370" r="25" fill="#a855f7" opacity="0.3"/>
+  <circle cx="680" cy="370" r="10" fill="#a855f7"/>
+  <text x="680" y="415" text-anchor="middle" fill="#e0e7ff" font-size="11" font-family="sans-serif">CV</text>
+  <circle cx="300" cy="490" r="20" fill="#3b82f6" opacity="0.3"/>
+  <circle cx="300" cy="490" r="8" fill="#3b82f6"/>
+  <text x="300" y="525" text-anchor="middle" fill="#e0e7ff" font-size="10" font-family="sans-serif">Transformers</text>
+  <circle cx="430" cy="490" r="20" fill="#6366f1" opacity="0.3"/>
+  <circle cx="430" cy="490" r="8" fill="#6366f1"/>
+  <text x="430" y="525" text-anchor="middle" fill="#e0e7ff" font-size="10" font-family="sans-serif">Knowledge Graphs</text>
+  <circle cx="620" cy="490" r="20" fill="#a855f7" opacity="0.3"/>
+  <circle cx="620" cy="490" r="8" fill="#a855f7"/>
+  <text x="620" y="525" text-anchor="middle" fill="#e0e7ff" font-size="10" font-family="sans-serif">Object Detection</text>
+  <circle cx="750" cy="490" r="20" fill="#ec4899" opacity="0.3"/>
+  <circle cx="750" cy="490" r="8" fill="#ec4899"/>
+  <text x="750" y="525" text-anchor="middle" fill="#e0e7ff" font-size="10" font-family="sans-serif">Segmentation</text>
+  <circle cx="540" cy="320" r="22" fill="#6366f1" opacity="0.3"/>
+  <circle cx="540" cy="320" r="9" fill="#6366f1"/>
+  <text x="540" y="358" text-anchor="middle" fill="#e0e7ff" font-size="10" font-family="sans-serif">Deep Learning</text>
+  <line x1="500" y1="262" x2="350" y2="345" stroke="#6366f1" stroke-width="2" opacity="0.4"/>
+  <line x1="500" y1="262" x2="680" y2="345" stroke="#a855f7" stroke-width="2" opacity="0.4"/>
+  <line x1="500" y1="262" x2="540" y2="298" stroke="#6366f1" stroke-width="2.5" opacity="0.6"/>
+  <line x1="540" y1="329" x2="430" y2="470" stroke="#6366f1" stroke-width="1.5" opacity="0.4"/>
+  <line x1="540" y1="329" x2="620" y2="470" stroke="#a855f7" stroke-width="1.5" opacity="0.4"/>
+  <line x1="350" y1="380" x2="300" y2="470" stroke="#3b82f6" stroke-width="1.5" opacity="0.4"/>
+  <line x1="350" y1="380" x2="430" y2="470" stroke="#6366f1" stroke-width="1.5" opacity="0.4"/>
+  <line x1="680" y1="380" x2="620" y2="470" stroke="#a855f7" stroke-width="1.5" opacity="0.4"/>
+  <line x1="680" y1="380" x2="750" y2="470" stroke="#ec4899" stroke-width="1.5" opacity="0.4"/>
+  <circle cx="410" cy="250" r="20" fill="#6366f1" opacity="0.3"/>
+  <circle cx="410" cy="250" r="8" fill="#6366f1" opacity="0.6"/>
+  <text x="410" y="285" text-anchor="middle" fill="#a9adc2" font-size="10" font-family="sans-serif">Neural Networks</text>
+  <line x1="410" y1="258" x2="350" y2="345" stroke="#6366f1" stroke-width="1.5" opacity="0.3"/>
+  <line x1="410" y1="258" x2="540" y2="311" stroke="#6366f1" stroke-width="1.5" opacity="0.3"/>
+  <text x="900" y="180" fill="#e0e7ff" font-size="14" font-weight="bold" font-family="sans-serif">Graph Statistics</text>
+  <rect x="880" y="195" width="260" height="30" rx="6" fill="#1a1f35"/>
+  <text x="895" y="214" fill="#a9adc2" font-size="12" font-family="sans-serif">Total Nodes</text>
+  <text x="1110" y="214" fill="#e0e7ff" font-size="12" font-weight="bold" font-family="sans-serif">1,284</text>
+  <rect x="880" y="235" width="260" height="30" rx="6" fill="#1a1f35"/>
+  <text x="895" y="254" fill="#a9adc2" font-size="12" font-family="sans-serif">Connections</text>
+  <text x="1110" y="254" fill="#e0e7ff" font-size="12" font-weight="bold" font-family="sans-serif">4,712</text>
+  <rect x="880" y="275" width="260" height="30" rx="6" fill="#1a1f35"/>
+  <text x="895" y="294" fill="#a9adc2" font-size="12" font-family="sans-serif">Clusters Found</text>
+  <text x="1110" y="294" fill="#e0e7ff" font-size="12" font-weight="bold" font-family="sans-serif">23</text>
+  <rect x="880" y="315" width="260" height="30" rx="6" fill="#1a1f35"/>
+  <text x="895" y="334" fill="#a9adc2" font-size="12" font-family="sans-serif">AI Discoveries</text>
+  <text x="1110" y="334" fill="#e0e7ff" font-size="12" font-weight="bold" font-family="sans-serif">156</text>
+</svg>

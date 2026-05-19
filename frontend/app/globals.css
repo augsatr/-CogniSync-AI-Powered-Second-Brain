@@ -1,0 +1,81 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600;700&display=swap');
+
+@layer base {
+  * {
+    @apply border-midnight-700/50;
+  }
+  body {
+    @apply bg-midnight-900 text-midnight-100 font-sans antialiased;
+  }
+  ::selection {
+    @apply bg-cogni-500/30 text-white;
+  }
+  ::-webkit-scrollbar {
+    @apply w-2;
+  }
+  ::-webkit-scrollbar-track {
+    @apply bg-midnight-900;
+  }
+  ::-webkit-scrollbar-thumb {
+    @apply bg-midnight-600 rounded-full hover:bg-midnight-500;
+  }
+}
+
+@layer components {
+  .glass {
+    @apply bg-midnight-800/60 backdrop-blur-xl border border-midnight-700/50 shadow-xl;
+  }
+  .glass-hover {
+    @apply hover:bg-midnight-700/80 hover:border-cogni-500/30 transition-all duration-300;
+  }
+  .gradient-text {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-cogni-400 via-cogni-500 to-cogni-600;
+  }
+  .gradient-border {
+    @apply relative;
+  }
+  .gradient-border::before {
+    content: '';
+    @apply absolute -inset-[1px] rounded-xl bg-gradient-to-r from-cogni-500 via-purple-500 to-cogni-600 opacity-75 blur-sm -z-10;
+  }
+  .glow {
+    box-shadow: 0 0 40px theme('colors.cogni.500/0.15'), 0 0 80px theme('colors.cogni.500/0.05');
+  }
+  .input-field {
+    @apply w-full px-4 py-3 bg-midnight-800/80 border border-midnight-600/50 rounded-xl text-midnight-100 placeholder-midnight-400 focus:outline-none focus:border-cogni-500/50 focus:ring-2 focus:ring-cogni-500/20 transition-all duration-300;
+  }
+  .btn-primary {
+    @apply px-6 py-3 bg-gradient-to-r from-cogni-600 to-cogni-500 text-white rounded-xl font-medium hover:from-cogni-500 hover:to-cogni-400 focus:outline-none focus:ring-2 focus:ring-cogni-500/50 transition-all duration-300 disabled:opacity-50 disabled:cursor-not-allowed;
+  }
+  .btn-secondary {
+    @apply px-6 py-3 glass glass-hover text-midnight-200 rounded-xl font-medium transition-all duration-300;
+  }
+  .btn-ghost {
+    @apply px-4 py-2 text-midnight-300 hover:text-white hover:bg-midnight-800/60 rounded-lg transition-all duration-200;
+  }
+  .card {
+    @apply glass rounded-2xl p-6;
+  }
+  .card-hover {
+    @apply card cursor-pointer hover:scale-[1.02] hover:border-cogni-500/30 transition-all duration-300;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+  .bg-grid {
+    background-image: linear-gradient(rgba(99, 102, 241, 0.03) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(99, 102, 241, 0.03) 1px, transparent 1px);
+    background-size: 50px 50px;
+  }
+  .bg-radial-gradient {
+    background: radial-gradient(ellipse at top, rgba(99, 102, 241, 0.1) 0%, transparent 60%),
+      radial-gradient(ellipse at bottom, rgba(168, 85, 247, 0.05) 0%, transparent 60%);
+  }
+}
