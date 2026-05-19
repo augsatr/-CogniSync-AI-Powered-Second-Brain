@@ -1,7 +1,7 @@
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="screenshots/dashboard.svg">
-    <img src="screenshots/dashboard.svg" alt="CogniSync" width="100%" max-width="800px">
+   
   </picture>
 </p>
 
