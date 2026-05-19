@@ -633,7 +633,7 @@ Distributed under the **MIT License**. See [LICENSE](LICENSE).
 
 ```
 MIT License
-Copyright (c) 2024 CogniSync
+Copyright (c) 2024 augsatr
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
 in the Software without restriction, including without limitation the rights
@@ -650,5 +650,5 @@ copies of the Software...
   <a href="https://spacy.io/">spaCy</a> •
   <a href="https://tailwindcss.com/">Tailwind CSS</a>
   <br>
-  <sub>Built with ❤️ · © 2024 CogniSync</sub>
+  <sub>Built with ❤️ by <a href="https://github.com/augsatr">@augsatr</a> · © 2024</sub>
 </p>
